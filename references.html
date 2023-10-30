@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<!--Front-End Web Dev D277 - John Gray-->
+<html lang="en">
+
+<head>
+  <title>References</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+  <script src="js/email.js">
+  </script>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar-brand navbar-expand-lg navbar-light bg-light" id="navbar_whole">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+      aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" id="Welcome" href="index.html">Welcome to Washington State!</a>
+
+    <!-- NAVBAR LINKS -->
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Seattle.html">Seattle</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tacoma.html">Tacoma</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="spokane.html">Spokane</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="olympia.html">Olympia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nature.html">Nature</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="references.html">References</a>
+        </li>
+      </ul>
+
+      <!-- SEARCH BAR -->
+      <input class="form-control mr-sm-2" id="searchbar" type="search" placeholder="Search Washington State"
+        aria-label="Search">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'">Search
+      </button>
+
+      <!--Signup-->
+      <button onclick="document.getElementById('id01').style.display='block'">Sign Up For Our Newsletter!</button>
+    </div>
+
+    <div id="id01" class="modal">
+      <p class="close"><span onclick="document.getElementById('id01').style.display='none'" title="Close">X</span></p>
+      <form onsubmit="compareEmails()" class="modal-content animate">
+        <div class="container-fluid" id="signupsheet">
+          <form class="navbar-nav mr-auto mt-2 mt-lg-0" id="sign">
+
+            <label><b>First Name:</b></label>
+            <input type="text" placeholder="Enter First Name" name="firstname" required>
+
+            <label><b>Last Name:</b></label>
+            <input type="text" placeholder="Enter Last Name" name="lastname" required>
+
+            <label><b>Email:</b></label>
+            <input type="email" placeholder="Enter Email" id="email1" required>
+
+            <label><b>Repeat Email:</b></label>
+            <input type="email" placeholder="Enter Email" id="email2" required>
+
+            <label><b>Do you have a question?</b></label>
+            <textarea type="text" placeholder="Question?" id="Query" rows="4" cols="10"></textarea>
+            <button id="ask" type="button" onclick="document.getElementById('id01').style.display='none'">Ask
+            </button>
+
+            <input type="checkbox"> Remember me
+
+            <p class="terms">By creating an account you agree to our <a href="terms.html" target="_blank">Terms &
+                Privacy</a>.</p>
+
+            <div class="Signup">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                class="cancelbtn">Cancel</button>
+              <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+          </form>
+        </div>
+      </form>
+    </div>
+  </nav>
+
+    <!-- Main Info -->
+    <section>
+      <main>
+        <div class="row">
+          <div class="column_1">
+            <header>
+              <h1>References</h1>
+            </header>
+            <p>
+                References
+                Andru, A. (2018, March 17). People at the Park. 
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/c5NA8hNfQUk" target="_blank">Link to source.</a>
+                <br>
+                <br>
+                Baidiuc, E. (2021, May 11). White Sailboat on Water Under Bridge During Daytime.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/226hqLKsyBs" target="_blank">Link to source.</a> 
+                <br>
+                <br>
+                Benesh, S. (2020, February 29). Grayscale Photo of People Sitting on Chair.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/Pod30xdRkUg" target="_blank">Link to source.</a> 
+                <br><br>
+                Butterfield, J. (2021, June 8). A Large Boat Traveling Across a Large Body of Water.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/oh1fFLtZqVw" target="_blank">Link to source.</a> 
+                <br><br>
+                Chu, T. (2019, August 16). Panoramic Photo of Cityscape.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/WBTz5iEnVFE" target="_blank">Link to source.</a>
+                <br><br>
+                CO. (2023). Community. 
+                <a href="https://www.olympiawa.gov/" target="_blank">Link to source.</a> 
+                <br><br>
+                Collins, J. (2016, June 20). Multicolored Wall Décor.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/mDer0S7-4M8" target="_blank">Link to source.</a> 
+                <br><br>  
+                Curry, B. (2019, May 5). Multicolored Wall.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/60ARwk90Nnc" target="_blank">Link to source.</a> 
+                <br><br>
+                Dutton, B. (2019, February 1). Public Market Farmers Market LED Sign.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/16ziVZtz8vA" target="_blank">Link to source.</a> 
+                <br><br>
+                Dutton, B. (2019, February 9). Mountain Range Under Clear Blue Sky.
+                [Photo]. Usplash.
+                <a href="https://unsplash.com/photos/7UYE15RyWp8" target="_blank">Link to source.</a> 
+                <br><br>
+                Eiermann, G. (2019, November 1). Trees Covered by Moss.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/htrYhGeOBv0" target="_blank">Link to source.</a> 
+                <br><br>
+                Gary. (2018, March 25). Market Grill Signage.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/ToJud7IKRHo" target="_blank">Link to source.</a> 
+                <br><br>
+                Hernandez, F. (2022, July 10). A Large Metal Structure in a City.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/azOupDDldt4" target="_blank">Link to source.</a>
+                <br><br> 
+                Huang, J. (2022, August 26). A Grassy Area with Trees and Flowers.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/OCA1WV0BNH8" target="_blank">Link to source.</a> 
+                <br><br>
+                Ian. (2023, July 2). A Road with Trees and a Mountain in the Background.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/a-road-with-trees-and-a-mountain-in-the-background-k5kX8EODzak" target="_blank">Link to source.</a> 
+                <br><br>
+                Jonathan. (2019, November 6). River Surrounded by Pine Trees. 
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/9fqnfJ0UnkY" target="_blank">Link to source.</a>
+                <br><br>
+                Koide, S. (2020, January 31). People Walking on Brown Sand During Daytime.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/O_XZnnDXAjU" target="_blank">Link to source.</a> 
+                <br><br>
+                Koide, S. (2020, January 31). Blue and Black UNK UNK.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/Shn5elf-NL8" target="_blank">Link to source.</a> 
+                <br><br>
+                Lin, R. (2023, June 28). A Road with a Mountain in the Background.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/a-road-with-a-mountain-in-the-background-YhtPQkbR7gE" target="_blank">Link to source.</a> 
+                <br><br>
+                Max. (2022, September 17). A Small Plane in Dock.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/FIagUXKLfaE" target="_blank">Link to source.</a> 
+                <br><br>
+                N.A. (2017). 
+                [Photo]. Visit the USA.
+                <a href="https://www.visittheusa.com/sites/default/files/styles/hero_l/public/images/hero_media_image/2017-04/38f71a3840567bb557f248415273427c.jpeg?itok=uO1LQzT7" target="_blank">Link to source.</a>  
+                <br><br>
+                N.A. (2023). 
+                [Photo]. Refin.
+                <a href="https://www.redfin.com/blog/wp-content/uploads/2023/04/Collage-Maker-04-Apr-2023-02-05-PM-2337.jpg" target="_blank">Link to source.</a>
+                <br><br>
+                N.A.
+                [Photo]. Blox Images.
+                <a href="https://bloximages.newyork1.vip.townnews.com/khq.com/content/tncms/assets/v3/editorial/6/a2/6a24e032-a1b7-11ea-bb6f-6f83223d9337/5ed11a048cf50.image.jpg?crop=960%2C504%2C0%2C108&resize=960%2C504&order=crop%2Cresize" target="_blank">Link to source.</a> 
+                <br><br>
+                N.A. (2022). 
+                [Photo]. State of Wa Tourism.
+                <a href="https://stateofwatourism.com/wp-content/uploads/2022/09/Olympia-City-Guide-9.jpg" target="_blank">Link to source.</a>   
+                <br><br>
+                N.A. (2020).
+                [Photo]. The Urbanist.
+                <a href="https://www.theurbanist.org/wp-content/uploads/2020/12/Olympia-festivals-events-header.jpg" target="_blank">Link to source.</a> 
+                <br><br>
+                NPS. (2023). An Icon on the Horizon. National Park Service.
+                <a href="https://www.nps.gov/mora/index.htm" target="_blank">Link to source.</a> 
+                <br><br>
+                PCW. (N.A.). Tacoma. Pierce County.
+                <a href="https://www.piercecountywa.gov/659/Tacoma" target="_blank">Link to source.</a> 
+                <br><br>
+                Pendyala, V. (2020, July 9). A Stream Running Through a Green Lush Forest.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/QPVgqHurAP8" target="_blank">Link to source.</a> 
+                <br><br>
+                PSE. (2023). About Puget Sound. Overview of Puget Sound. 
+                <a href="https://pugetsoundestuarium.org/about/about-puget-sound/" target="_blank">Link to source.</a>
+                <br><br>
+                Plihal, J. (2020, September 29). Green Pine Trees on Mountain Under White Clouds During Daytime.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/3bxzDWFsI4I" target="_blank">Link to source.</a> 
+                <br><br>
+                Pilgrim, J. (2021, February 15). People Walking on Snow Covered Mountain During Daytime.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/XLsppItL0mg" target="_blank">Link to source.</a>
+                <br><br>
+                Peltola, C. (2018, September 6). Man Sitting on Watercraft Bench Greyscale Photo.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/_ejv1nAo6lU" target="_blank">Link to source.</a> 
+                <br><br>
+                Plopper, S. (2020, May 14). High Rise Buildings During Daytime.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/UmEYn_GYqFo" target="_blank">Link to source.</a>
+                <br><br>
+                Robbins, P. (2023, August 8). A Lake Surrounded by Trees and Mountains Under a Cloudy Sky.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/a-lake-surrounded-by-trees-and-mountains-under-a-cloudy-sky-VuM_98cTyLU" target="_blank">Link to source.</a> 
+                <br><br>
+                Satyanto, H. (2018, June 17). Landscape Photography of Road.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/UytSb_a2YE0" target="_blank">Link to source.</a> 
+                <br><br>
+                Stone, R. (2018, August 1). Trees Beside Body of Water Distant from Mountain.
+                [Photo]. Unsplash. 
+                <a href="https://unsplash.com/photos/jV2cNlH4e6A" target="_blank">Link to source.</a> 
+                <br><br>
+                SMA. (2023). Brief History of Seattle. Seattle Municipal Archives.
+                <a href="https://www.seattle.gov/cityarchives/seattle-facts/brief-history-of-seattle" target="_blank">Link to source.</a> 
+                <br><br>
+                Spokanecity. (N.A.) Spokane Area History.
+                <a href="https://my.spokanecity.org/about/history/#:~:text=From%20the%20Spokanes%2C%20we%20get,1881%2C%20encompassing%201.56%20square%20miles." target="_blank">Link to source.</a> 
+                <br><br>
+                Uppendahl, J. (2023, June 1). A Pathway Lined with Lots of Trees and Flowers.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/SbrllfMQUPc" target="_blank">Link to source.</a> 
+                <br><br>
+                USC. (2022). QuickFacts: Seattle City, Washington. United States Census.
+                <a href="https://www.census.gov/quickfacts/fact/table/seattlecitywashington/EDU685221" target="_blank">Link to source.</a>   
+                <br><br>
+                USC. (2022). QuickFacts: Seattle City, Washington. United States Census.
+                <a href="https://www.census.gov/quickfacts/fact/table/spokanecitywashington/EDU685221" target="_blank">Link to source.</a>  
+                <br><br>
+                USC. (2022). QuickFacts: Tacoma City, Washington. United States Census.
+                <a href="https://www.census.gov/quickfacts/fact/table/tacomacitywashington/EDU685221" target="_blank">Link to source.</a> 
+                <br><br>
+                UNESCO. (2023) Olympic National Park. World Heritage Convention: The List.
+                <a href="https://whc.unesco.org/en/list/151/" target="_blank">Link to source.</a>  
+                <br><br>
+                VTC. (2023). Visiting the Capital Campus.
+                <a href="https://www.olympiawa.gov/community/events___activities/visiting_the_capitol.php" target="_blank">Link to source.</a> 
+                <br><br>
+                Westwood, M. (2023, June 30). 20 Things to do in Olympia.
+                [Photo]. Travel 2 Next.
+                <a href="https://travel2next.com/things-to-do-in-olympia-wa/" target="_blank">Link to source.</a>
+                <br><br>
+                Wheatley, T. (2019, June 19). Round Yellow Tables and Yellow Chairs.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/hSc3u8CCfhk" target="_blank">Link to source.</a>
+                <br><br>
+                Wilson, R. (2018, April 13). Aerial Photograghy of City During Daytime.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/HkF6feHrGBE" target="_blank">Link to source.</a>
+                <br><br>
+                Winegeart, K. (2020, October 11). Brown Rocky Mountain Beside Body of Water During Daytime.
+                [Photo]. Unsplash. 
+                <a href="https://unsplash.com/photos/n0l4l6JzHWg" target="_blank">Link to source.</a>
+                <br><br>
+                Woo, J. (2022, March 27). A Large Boat Floating on Top of a Large Body of Water.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/JbQAAQLvQho" target="_blank">Link to source.</a>
+                <br><br>
+                Woods, C. (2023, February 8). A Crowd of People Watching a Football Game.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/GhBNlUpLNJA" target="_blank">Link to source.</a> 	
+                <br><br>
+                Zeng, W. (2019, October 10). Cruise Ship Near Island During Day.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/G2kQ0r7ZxvY" target="_blank">Link to source.</a> 
+                <br><br>
+                Zeng, W. (2020, July 12). White and Brown Concrete Building Near Mountain During Daytime.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/HqeEO01gXvw" target="_blank">Link to source.</a> 
+                <br><br>
+                Zhang, E. (2018, October 28). Gray Tower at Golden Hour.
+                [Photo]. Unsplash.
+                <a href="https://unsplash.com/photos/aJmmebD4NpE" target="_blank">Link to source.</a> 
+            </p>
+      </main>
+      <aside>
+        <h5>Fast Facts</h5>
+        <ul>
+          <li>Statehood: November 11, 1889.</li>
+          <li>Population: 7,000,000+.</li>
+          <li>Location: Pacific Northwest.</li>
+          <li>Capital City: Olympia.</li>
+        </ul>
+        <h5>Mountains</h5>
+        <ol>
+          <li>Cascade Mountains.</li>
+          <li>Olympic Mountains.</li>
+          <li>Rainier National Park.</li>
+          <li>Mount St. Helens.</li>
+          <li>Mount Baker.</li>
+          <li>Mount Shuksan.</li>
+        </ol>
+      </aside>
+    </section>
+    </div>
+    </div>
+    <!--Table-->
+    <div class="table">
+      <table>
+        <tr>
+          <th>Places to Visit</th>
+          <th>Places to Eat</th>
+          <th>Places to Stay</th>
+        </tr>
+        <tr>
+          <td><a href="https://www.pikeplacemarket.org/" target="_blank">Pike Place Market</a></td>
+          <td><a href="http://eatatlowells.com/" target="_blank">Lowell's</a></td>
+          <td><a href="https://www.palisociety.com/hotels/seattleplace" target="_blank">Palihotel</a></td>
+        </tr>
+        <tr>
+          <td><a href="https://www.fs.usda.gov/mbs" target="_blank">Baker-Snoqualmie</a></td>
+          <td><a href="https://mountainviewdinerwa.com/" target="_blank">Mountain View Diner</a></td>
+          <td><a href="https://bushhouseinn.com/" target="_blank">Bush House Inn</a></td>
+        </tr>
+        <tr>
+          <td><a href="http://www.fridayharbor.org/" target="_blank">Friday Harbour</a></td>
+          <td><a href="https://www.downriggerssanjuan.com/" target="_blank">Downriggers</a></td>
+          <td><a href="https://www.fridayharbour.com/" target="_blank">Friday Harbour Resort</a></td>
+        </tr>
+      </table>
+    </div>
+
+    <!--Picture Buttons-->
+    <div>
+      <header id="PicButtons">
+        <div class="PicButtonsCheckout">
+          Checkout additional areas of Washington State below!
+        </div>
+      </header>
+
+      <div class="column-2">
+        <form class="form-control mr-sm-2" id="seattle_square" action="Seattle.html">Seattle
+          <input type="image" src="images/Kerry_Park.jpg" alt="Seattle skyline.">
+        </form>
+
+        <form class="form-control mr-sm-2" id="seattle_square" action="tacoma.html">Tacoma
+          <input type="image" src="images/ferry_inside_1.jpg" alt="Inside ferry with booths and windows">
+        </form>
+
+        <form class="form-control mr-sm-2" id="seattle_square" action="https://www.alaskaair.com/" target="_blank">
+          Flights to Washington State!
+          <input type="image" src="images/floatplane.jpg" alt="Floatplane on water.">
+        </form>
+
+      </div>
+      <div class="column-3">
+        <form class="form-control mr-sm-2" id="seattle_square" action="spokane.html">Spokane
+          <input type="image" src="images/spokane/spok-gond.jpg" alt="Exterior of Pike Place Market">
+        </form>
+
+        <form class="form-control mr-sm-2" id="seattle_square" action="olympia.html">Olympia
+          <input type="image" src="images/Record_store_1.jpg" alt="Inside a record store">
+        </form>
+
+        <form class="form-control mr-sm-2" id="seattle_square" action="nature.html">Nature
+          <input type="image" src="images/Olympics_1.jpg" alt="Olympic mountains">
+        </form>
+      </div>
+    </div>
+
+    <!--footer-->
+    <footer>
+      <div class="footer">
+        <p>&copy; 2023 John Gray
+          <a href="mailto: jgra792@wgu.edu" target="_blank"> --> Email Me</a>
+      </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,359 @@
+/* Style for Washington state project */
+alt {
+  color: #f9faf9;
+}
+/* Navbar */
+#navbar_whole {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #fff;
+  padding: 0.5rem;
+}
+#navbarToggler {
+  background-color: #bebebe23;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 1rem 1rem 1rem 1rem;
+  border: 1px solid #ced4da;
+  background-color: #fff;
+  box-shadow: 0.3rem 0.3rem 0rem 0rem rgba(0, 0, 0, 0.15);
+}
+#Welcome {
+  color:#4b5b4f;
+  font-weight: bolder;
+  padding-left: 0.5rem;
+}
+.nav-item {
+  padding-left: 1.5rem;
+}
+
+/*signup*/
+label {
+  font-size: medium;
+}
+input[type=text], input[type=password] {
+  font-size: small;
+  font-weight: lighter;
+  display: list-item;
+  width: 100%;
+  margin: max-content;
+  border: 1px solid #ccc;
+}
+input[type=email] {
+  font-size: small;
+  font-weight: lighter;
+  display: list-item;
+  width: 100%;
+  margin: max-content;
+  border: 1px solid #ccc;
+}
+#Query {
+  font-size: small;
+  font-weight: lighter;
+  display: list-item;
+  text-align: left;
+  display: list-item;
+  width: 100%;
+  margin: max-content;
+  border: 1px solid #ccc;
+  resize: vertical;
+  overflow: auto;
+}
+#ask{
+  font-size: small;
+  font-weight: lighter;
+  display: list-item;
+  width: 97%;
+  margin: max-content;
+  border: 1px solid #ccc;
+  box-shadow:0.3rem 0.3rem 0rem 0rem rgba(0, 0, 0, 0.15)
+}
+.terms {
+  padding: 1rem;
+  display: list;
+  width: 100%;
+  margin: max-content;
+}
+#id01 {
+  margin: max-content;
+  position: absolute;
+}
+.close {
+  font-weight: bold;
+  text-align: end;
+  color: #7f9584;
+  cursor: pointer;
+  text-shadow:1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+.modal-content{
+  padding:1rem;
+  background-color: #7f9584;
+  border-color: #4b5b4f;
+  margin: auto;
+  max-width: 95%;
+  height: auto;
+  box-shadow:0.3rem 0.3rem 0rem 0rem rgba(0, 0, 0, 0.15)
+}
+.modal {
+  margin: auto;
+  max-width: max-content;
+  padding: 1rem;
+}
+
+/*Search bar*/
+#searchbar {
+  max-width: 100%;
+  height: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ced4da;
+  background-color: #fff;
+  box-shadow: 0.3rem 0.3rem 0rem 0rem rgba(0, 0, 0, 0.15);
+}
+button {
+  max-width: 100%;
+  height: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ced4da;
+  background-color: #fff;
+  box-lines: none;
+  box-shadow: 0.3rem 0.3rem 0rem 0rem rgba(0, 0, 0, 0.15);
+}
+button:hover {
+  opacity: 0.7;
+}
+
+/*carousel*/
+#carousel {
+  background-image: image("images/river.jpg");
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #000000;
+  box-shadow: 1rem 1rem 1rem 1rem rgba(0, 0, 0, 0.15);
+}
+.carousel-item {
+  background-image: image("images/river.jpg");
+  height: 30rem;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover ;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.w-100 {
+  background-image: image("images/river.jpg");
+  padding: 2rem;
+  height: 100% !important;
+  width: auto !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#chevron {
+  box-shadow: none !important;
+}
+
+/*Main*/
+main {
+  float: left;
+  width: 75%;
+}
+h1 {
+  color:#4b5b4f;
+}
+h5 {
+  text-indent: 1rem;
+  color:#7f9584;
+}
+.column_1 {
+  padding: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+#Washington {
+  font-size: 1rem;
+  text-align: left;
+  text-indent: 50px;
+}
+#WashEnding {
+  font-size: larger;
+  text-align: center;
+  text-indent: 50px;
+  font-weight: bold;
+}
+#Visit {
+  font-size: 2rem;
+  text-align: center;
+  text-indent: 50px;
+  font-weight: bold;
+}
+.close:hover {
+  opacity: 0.5;
+}
+table, th, td {
+  margin: auto;
+  margin-top: 1rem;
+  padding: 0.3rem;
+  padding-top: 0.5rem;
+  max-width: fit-content;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+/*Aside*/
+aside {
+  background-color: #7f95848d; 
+  margin: auto;
+  float: right;
+  width: 25%;
+  padding-right: 1rem;
+}
+aside h5 {
+  padding-top: 3rem;
+  text-align: left;
+  color: #4b5b4f;
+}
+ol h5 {
+  text-indent: none;
+  text-align: left;
+  color: #4b5b4f;
+}
+
+/*Table*/
+.table {
+  margin: auto;
+  margin-top: 1rem;
+  padding-right: 10rem;
+  padding-top: 0.3rem;
+  padding-bottom: 1rem;
+}
+th {
+  text-align: center;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: medium;
+  font-weight: bold;
+}
+td{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: small;
+  font-weight: lighter;
+}
+a:link {
+  color: #4b5b4f;
+  text-decoration: none;
+}
+a:visited {
+  color: #4b5b4f;
+  text-decoration: none;
+}
+a:hover {
+  color: #2b322c;
+  text-decoration: none;
+}
+
+
+/*PictureButtons*/
+.PicButtonsCheckout {
+  color: #4b5b4f;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0.5em;
+  text-align: left;
+}
+#seattle_square {
+  max-width: 100%;
+  margin: auto;
+  padding: 0.5rem;
+  color:#4b5b4f;
+  text-align: left;
+  font-weight: bold;;
+  background-color: #fff;
+  box-shadow: 0.3rem 0.3rem 0rem 0rem rgba(0, 0, 0, 0.15);
+}
+.column-2 {
+  display: flex;
+}
+.column-3 {
+  display: flex; 
+}
+
+[type="image"] {
+  padding: 0.5rem;
+  max-width: 100%;
+  max-height: auto;
+}
+input:hover {
+  opacity: 0.7;
+}
+#PicButtons {
+  color: #4b5b4f;
+  font-weight: bold;
+  font-style: italic;
+  padding: 1rem;
+  text-align: left;
+  margin: auto;  
+}
+
+/*Footer*/
+.footer {
+  padding-top: 5rem;
+  margin: auto;
+  float: none;
+  text-align: center;
+  width: max-content;
+}
+
+/*email*/
+#signedup {
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+  font-style: italic;
+  color: #4b5b4f;
+}
+#back_home {
+  margin: auto;
+  max-width: 85%;
+  height: auto;
+}
+.okbutton {
+  padding: 1rem;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 50px;
+}

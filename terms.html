@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!--Front-End Web Dev D277 - John Gray-->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Terms and Conditions</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+
+  <script src="js/email.js">
+  </script>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar-brand navbar-expand-lg navbar-light bg-light" id="navbar_whole">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+      aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" id="Welcome" href="index.html">Terms and Conditions</a>
+
+    <!-- NAVBAR LINKS -->
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Seattle.html">Seattle</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tacoma.html">Tacoma</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="spokane.html">Spokane</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="olympia.html">Olympia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nature.html">Nature</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="references.html">References</a>
+        </li>
+      </ul>
+
+      <!-- SEARCH BAR -->
+      <input class="form-control mr-sm-2" id="searchbar" type="search" placeholder="Search Washington State"
+        aria-label="Search">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'">Search
+      </button>
+
+      <!--Signup-->
+      <button onclick="document.getElementById('id01').style.display='block'">Sign Up For Our Newsletter!</button>
+    </div>
+
+    <div id="id01" class="modal">
+      <p class="close"><span onclick="document.getElementById('id01').style.display='none'" title="Close">X</span>
+      </p>
+      <form onsubmit="compareEmails()" class="modal-content animate">
+        <div class="container-fluid" id="signupsheet">
+          <form class="navbar-nav mr-auto mt-2 mt-lg-0" id="sign">
+
+            <label><b>First Name:</b></label>
+            <input type="text" placeholder="Enter First Name" name="firstname" required>
+
+            <label><b>Last Name:</b></label>
+            <input type="text" placeholder="Enter Last Name" name="lastname" required>
+
+            <label><b>Email:</b></label>
+            <input type="email" placeholder="Enter Email" id="email1" required>
+
+            <label><b>Repeat Email:</b></label>
+            <input type="email" placeholder="Enter Email" id="email2" required>
+
+            <label><b>Do you have a question?</b></label>
+            <textarea type="text" placeholder="Question?" id="Query" rows="4" cols="10"></textarea>
+            <button id="ask" type="button" onclick="document.getElementById('id01').style.display='none'">Ask
+            </button>
+
+            <input type="checkbox"> Remember me
+
+            <p class="terms">By creating an account you agree to our <a href="terms.html" target="_blank">Terms &
+                Privacy</a>.</p>
+
+            <div class="Signup">
+              <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                class="cancelbtn">Cancel</button>
+              <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+          </form>
+        </div>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Main Info -->
+  <section>
+    <main>
+      <div class="row">
+        <div class="column_1">
+          <header>
+            <h1>Terms and Conditions</h1><br>
+            <h5>By using our services, you agree to these terms and conditions. Please read them carefully.</h5><br>
+          </header>
+          <p>
+            TERMS and CONDITIONS
+          </p>
+          <p>
+            Thank you for reading our Terms and Conditions. We are excited to have you here. This is a legally binding
+            agreement.
+          </p>
+    </main>
+    <aside>
+      <h5>Fast Facts</h5>
+      <ul>
+        <li>Statehood: November 11, 1889.</li>
+        <li>Population: 7,000,000+.</li>
+        <li>Location: Pacific Northwest.</li>
+        <li>Capital City: Olympia.</li>
+      </ul>
+      <h5>Mountains</h5>
+      <ol>
+        <li>Cascade Mountains.</li>
+        <li>Olympic Mountains.</li>
+        <li>Rainier National Park.</li>
+        <li>Mount St. Helens.</li>
+        <li>Mount Baker.</li>
+        <li>Mount Shuksan.</li>
+      </ol>
+    </aside>
+    <div class="tems">
+      <button onclick="window.close()" class="okbutton">Ok</button>
+    </div>
+  </section>
+  </div>
+  </div>
+  <!--Table-->
+  <div class="table">
+    <table>
+      <tr>
+        <th>Places to Visit</th>
+        <th>Places to Eat</th>
+        <th>Places to Stay</th>
+      </tr>
+      <tr>
+        <td><a href="https://www.pikeplacemarket.org/" target="_blank">Pike Place Market</a></td>
+        <td><a href="http://eatatlowells.com/" target="_blank">Lowell's</a></td>
+        <td><a href="https://www.palisociety.com/hotels/seattleplace" target="_blank">Palihotel</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.fs.usda.gov/mbs" target="_blank">Baker-Snoqualmie</a></td>
+        <td><a href="https://mountainviewdinerwa.com/" target="_blank">Mountain View Diner</a></td>
+        <td><a href="https://bushhouseinn.com/" target="_blank">Bush House Inn</a></td>
+      </tr>
+      <tr>
+        <td><a href="http://www.fridayharbor.org/" target="_blank">Friday Harbour</a></td>
+        <td><a href="https://www.downriggerssanjuan.com/" target="_blank">Downriggers</a></td>
+        <td><a href="https://www.fridayharbour.com/" target="_blank">Friday Harbour Resort</a></td>
+      </tr>
+    </table>
+  </div>
+
+  <!--Picture Buttons-->
+  <div>
+    <header id="PicButtons">
+      <div class="PicButtonsCheckout">
+        Checkout additional areas of Washington State below!
+      </div>
+    </header>
+
+    <div class="column-2">
+      <form class="form-control mr-sm-2" id="seattle_square" action="Seattle.html">Seattle
+        <input type="image" src="images/Kerry_Park.jpg" alt="Seattle skyline.">
+      </form>
+
+      <form class="form-control mr-sm-2" id="seattle_square" action="tacoma.html">Tacoma
+        <input type="image" src="images/ferry_inside_1.jpg" alt="Inside ferry with booths and windows">
+      </form>
+
+      <form class="form-control mr-sm-2" id="seattle_square" action="https://www.alaskaair.com/" target="_blank">
+        Flights to Washington State!
+        <input type="image" src="images/floatplane.jpg" alt="Floatplane on water.">
+      </form>
+
+    </div>
+    <div class="column-3">
+      <form class="form-control mr-sm-2" id="seattle_square" action="spokane.html">Spokane
+        <input type="image" src="images/spokane/spok-gond.jpg" alt="Exterior of Pike Place Market">
+      </form>
+
+      <form class="form-control mr-sm-2" id="seattle_square" action="olympia.html">Olympia
+        <input type="image" src="images/Record_store_1.jpg" alt="Inside a record store">
+      </form>
+
+      <form class="form-control mr-sm-2" id="seattle_square" action="nature.html">Nature
+        <input type="image" src="images/Olympics_1.jpg" alt="Olympic mountains">
+      </form>
+    </div>
+  </div>
+
+  <!--footer-->
+  <footer>
+    <div class="footer">
+      <p>&copy; 2023 John Gray
+        <a href="mailto: jgra792@wgu.edu" target="_blank"> Email Me</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
